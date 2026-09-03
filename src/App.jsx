@@ -1,3 +1,6 @@
+import Projetos from "./components/Projetos";
+import "./styles.css";
+
 const experiences = [
     {
         year: 'Jan. 2026 — atual',
@@ -83,6 +86,7 @@ function App() {
                     <nav>
                         <a href="#sobre">Sobre</a>
                         <a href="#experiencias">Experiências</a>
+                        <a href="#projetos">Projetos</a>
                         <a href="#interesses">Interesses</a>
                         <a href="#contato">Contato</a>
                     </nav>
@@ -248,6 +252,9 @@ function App() {
 
                 </section>
 
+                {/* PROJETOS */}
+                        
+                        <Projetos />
 
                 {/* INTERESSES */}
 
